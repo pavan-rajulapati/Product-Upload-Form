@@ -1,0 +1,102 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.product-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-form form{
+  border: solid #dbdbdb;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.product-form form div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-form form .sizes div:last-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px 3px;
+}
+
+.product-form form span{
+  color: red;
+}
+
+.product-form form div label{
+  color:  #333;
+  margin: 10px 0px;
+}
+
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.product-form form .column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-form form .column div{
+  margin:0px 5px;
+}
+
+form h2{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form .btn{
+  margin-top: 20px;
+}
+
+form .btn button{
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+form textarea{
+  height: 70px;
+  outline: none;
+  border: solid 1px #dbdbdb;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.info{
+  color: #003a91;
+  margin: 0;
+  margin-top: 5px;
+}
+form input[type = "number"]::-webkit-inner-spin-button,
+form input [type = "number"]::-webkit-outer-spin-button{
+  display: none;
+}
